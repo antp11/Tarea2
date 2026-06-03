@@ -1,0 +1,140 @@
+/* Reset global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Tipografía y cuerpo */
+body {
+  font-family: "Poppins", "Roboto", sans-serif;
+  background: #f4f6f9; /* gris claro moderno */
+  color: #333;
+  line-height: 1.6;
+  padding: 30px;
+}
+
+/* Encabezados */
+h1 {
+  font-size: 2.2rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.6rem;
+  color: #34495e;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.3rem;
+  color: #2980b9;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 1.1rem;
+  color: #555;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+/* Secciones */
+section {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+/* Box Model */
+.caja {
+  margin: 15px 0;
+  padding: 15px;
+  border: 2px solid #2980b9;
+  background: #eaf2f8;
+  border-radius: 8px;
+}
+
+.inline {
+  border: 1px dashed #27ae60;
+  padding: 8px;
+  background: #eafaf1;
+  display: inline-block;
+  border-radius: 6px;
+}
+
+/* Posicionamiento */
+.relativa {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  background: #d5f5e3;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.absoluta {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #f9e79f;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.flotante {
+  float: left;
+  width: 150px;
+  height: 100px;
+  margin: 10px;
+  background: #aed6f1;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.oculta {
+  visibility: hidden;
+  background: #f5b7b1;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.superpuesta {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  z-index: 10;
+  background: #f8c471;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+/* Flexbox */
+.contenedor {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 2px solid #2c3e50;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background: #ecf0f1;
+}
+
+.item {
+  flex: 1 1 200px;
+  margin: 10px;
+  background: #d6eaf8;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+
